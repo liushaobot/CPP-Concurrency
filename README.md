@@ -1,3 +1,3 @@
 # CPP-Concurrency
 
-Learn c++ concurrency.
+Learn C++ Concurrency.
