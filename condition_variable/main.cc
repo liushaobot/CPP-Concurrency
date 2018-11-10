@@ -33,6 +33,7 @@ int main(int argc, const char **argv) {
     std::thread worker(worker_thread);
 
     data = "Example data";
+    std::cout << "Before processing, data = " << data << std::endl;
     // 发送数据到 worker 线程
     {
         std::lock_guard<std::mutex> lk(m);
